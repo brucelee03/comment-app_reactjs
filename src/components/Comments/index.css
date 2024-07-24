@@ -1,0 +1,213 @@
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+@media (max-width: 576px) {
+  .bg-container {
+    padding: 15px;
+  }
+  .comment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #cbd2d9;
+  }
+  .writing-comment-section {
+    order: 1;
+    width: 100%;
+  }
+  .title {
+    color: #1e293b;
+    font-size: 42px;
+    margin-top: 8px;
+    font-weight: 600;
+    margin-bottom: -4px;
+  }
+  .topic {
+    font-weight: 600;
+    font-size: 15px;
+    color: #475569;
+  }
+  .comment-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .username {
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    border: solid 1px #cbd2d9;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    color: #1e293b;
+    font-weight: 600;
+  }
+  .username:focus {
+    outline: none;
+  }
+  .comment {
+    border-radius: 6px;
+    padding: 8px;
+    width: 100%;
+    height: 150px;
+    border: solid 1px #cbd2d9;
+    margin-bottom: 14px;
+    color: #1e293b;
+    font-weight: 600;
+  }
+  .comment:focus {
+    outline: none;
+  }
+  .add-btn {
+    color: #ffffff;
+    background-color: #0284c7;
+    border-width: 0;
+    width: 135px;
+    height: 33px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .add-btn:focus {
+    outline: none;
+  }
+  .comment-png {
+    width: 100%;
+    height: 70%;
+    align-self: flex-end;
+    order: 0;
+  }
+  .total-comment-card {
+    display: flex;
+    gap: 8px;
+    margin-left: 6px;
+  }
+  .total-comment {
+    background-color: #0284c7;
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    text-align: center;
+    border-radius: 3px;
+    align-content: center;
+  }
+  .num-of_comment {
+    color: #ffffff;
+    margin-top: 3px;
+    font-size: 15px;
+  }
+  .sub-heading {
+    font-size: 15px;
+    font-weight: bold;
+    color: #475569;
+  }
+  .users-comment-list {
+    list-style-type: none;
+    margin-left: -38px;
+  }
+}
+@media (min-width: 767px) {
+  .comment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #cbd2d9;
+  }
+  .title {
+    color: #1e293b;
+    font-size: 65px;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  .topic {
+    font-weight: bold;
+    font-size: 20px;
+    color: #475569;
+  }
+  .comment-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .username {
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    border: solid 2px #cbd2d9;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #1e293b;
+    font-weight: 600;
+  }
+  .username:focus {
+    outline: none;
+  }
+  .comment {
+    border-radius: 8px;
+    padding: 8px;
+    width: 100%;
+    height: 150px;
+    border: solid 2px #cbd2d9;
+    margin-bottom: 16px;
+    color: #1e293b;
+    font-weight: 600;
+  }
+  .comment:focus {
+    outline: none;
+  }
+  .add-btn {
+    color: #ffffff;
+    background-color: #0284c7;
+    border-width: 0;
+    width: 135px;
+    height: 33px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .add-btn:focus {
+    outline: none;
+  }
+  .comment-png {
+    width: 40%;
+    height: 100%;
+    align-self: flex-end;
+  }
+  .total-comment-card {
+    display: flex;
+    gap: 10px;
+    margin-left: 6px;
+  }
+  .total-comment {
+    background-color: #0284c7;
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    text-align: center;
+    border-radius: 4px;
+    align-content: center;
+  }
+  .num-of_comment {
+    color: #ffffff;
+    margin: 5px;
+  }
+  .sub-heading {
+    font-size: 21px;
+    font-weight: bold;
+    color: #475569;
+  }
+  .users-comment-list {
+    list-style-type: none;
+    margin-left: -38px;
+  }
+}

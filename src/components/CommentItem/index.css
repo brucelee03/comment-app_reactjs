@@ -1,0 +1,175 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+@media (max-width: 576px) {
+  .comment-item-card {
+    margin-bottom: 14px;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #cbd2d9;
+  }
+  .comment-item {
+    display: flex;
+    gap: 12px;
+  }
+  .profile-container {
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    align-content: center;
+  }
+  .profile-icon {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 4px;
+  }
+  .name-container {
+    margin-top: -15px;
+    display: flex;
+    gap: 20px;
+  }
+  .name {
+    color: #1e293b;
+    font-size: 21px;
+    margin-top: 12px;
+  }
+  .date {
+    margin-top: 17px;
+    font-size: 12px;
+    color: #cbd2d9;
+  }
+  .user-comment {
+    font-size: 15px;
+    margin-top: -3px;
+    color: #94a3b8;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .like-button {
+    display: flex;
+    gap: 10px;
+    border-width: 0;
+    background-color: transparent;
+    color: #7e858e;
+  }
+  .like {
+    width: 17px;
+    align-self: center;
+  }
+  .like-btn-label {
+    font-size: 14px;
+    margin-left: 4px;
+  }
+  .liked {
+    color: #0b69ff;
+  }
+  .button {
+    border-width: 0;
+    background-color: transparent;
+  }
+  .delete {
+    width: 17px;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 767px) {
+  .comment-item-card {
+    margin-bottom: 14px;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #cbd2d9;
+  }
+  .comment-item {
+    display: flex;
+    gap: 15px;
+  }
+  .profile-container {
+    width: 41px;
+    height: 41px;
+    text-align: center;
+    border-radius: 50%;
+    align-content: center;
+  }
+  .profile-icon {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .name-container {
+    margin-top: -15px;
+    display: flex;
+    gap: 20px;
+  }
+  .name {
+    color: #1e293b;
+    font-size: 24px;
+    margin-top: 12px;
+  }
+  .date {
+    margin-top: 19px;
+    font-size: 17px;
+    color: #cbd2d9;
+  }
+  .user-comment {
+    font-size: 18px;
+    margin-top: -3px;
+    color: #94a3b8;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .like-button {
+    display: flex;
+    gap: 10px;
+    border-width: 0;
+    background-color: transparent;
+    color: #7e858e;
+  }
+  .like {
+    width: 22px;
+    align-self: center;
+  }
+  .like-btn-label {
+    font-size: 17px;
+    margin-left: 4px;
+  }
+  .liked {
+    color: #0b69ff;
+  }
+  .button {
+    border-width: 0;
+    background-color: transparent;
+  }
+  .delete {
+    width: 22px;
+  }
+}
